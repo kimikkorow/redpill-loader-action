@@ -31,6 +31,7 @@ cd ..
 # build redpill-load
 cd redpill-load
 cp ${root}/user_config.DS918+.json ./user_config.json
+./ext-manager.sh add https://raw.githubusercontent.com/pocopico/rp-ext/master/r8168/rpext-index.json
 sudo ./build-loader.sh 'DS918+' '6.2.4-25556'
 mv images/redpill-DS918+_6.2.4-25556*.img ${root}/output/
 cd ${root}
