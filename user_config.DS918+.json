@@ -1,7 +1,7 @@
 {
   "extra_cmdline": {
-    "vid": "${{ secrets.DS918_vid }}",
-    "pid": "${{ secrets.DS918_pid }}",
+    "vid": "${{ secrets.vid }}",
+    "pid": "${{ secrets.pid }}",
     "sn": "${{ secrets.DS918_sn }}",
     "mac1": "${{ secrets.DS918_mac1 }}"
   },
