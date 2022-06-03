@@ -1,9 +1,9 @@
 {
   "extra_cmdline": {
-    "vid": "${{ secrets.vid }}",
-    "pid": "${{ secrets.pid }}",
-    "sn": "${{ secrets.DS3617_sn }}",
-    "mac1": "${{ secrets.DS3617_mac1 }}"
+    "vid": "${{ secrets.VID }}",
+    "pid": "${{ secrets.PID }}",
+    "sn": "${{ secrets.DS3617_SN }}",
+    "mac1": "${{ secrets.DS3617_MAC1 }}"
   },
   "synoinfo": {
     "supportsystemperature": "no",
