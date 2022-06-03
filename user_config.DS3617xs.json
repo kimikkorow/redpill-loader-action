@@ -1,9 +1,9 @@
 {
   "extra_cmdline": {
-    "vid": "0x46f4",
-    "pid": "0x0001",
-    "sn": "1460ODN002077",
-    "mac1": "001132BE010B"
+    "vid": "${{ secrets.DS3617_vid }}",
+    "pid": "${{ secrets.DS3617_pid }}",
+    "sn": "${{ secrets.DS3617_sn }}",
+    "mac1": "${{ secrets.DS3617_mac1 }}"
   },
   "synoinfo": {
     "supportsystemperature": "no",

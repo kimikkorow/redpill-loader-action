@@ -1,6 +1,6 @@
 # Building RedPill loader with Github action
 
-DS918+ & DS3615xs DSM 6.2.4/7.0.1 loader
+DS918+ & DS3615xs & DS3617xs DSM 6.2.4/7.0.1 loader
 
 [RedPill-TTG/redpill-lkm](https://github.com/RedPill-TTG/redpill-lkm)
 
